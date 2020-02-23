@@ -1,0 +1,47 @@
+|shumaguan
+sys_clk => dig_wei[0]~reg0.CLK
+sys_clk => dig_wei[1]~reg0.CLK
+sys_clk => dig_wei[2]~reg0.CLK
+sys_clk => dig_wei[3]~reg0.CLK
+sys_clk => dig_wei[4]~reg0.CLK
+sys_clk => dig_wei[5]~reg0.CLK
+sys_clk => dig_duan[0]~reg0.CLK
+sys_clk => dig_duan[1]~reg0.CLK
+sys_clk => dig_duan[2]~reg0.CLK
+sys_clk => dig_duan[3]~reg0.CLK
+sys_clk => dig_duan[4]~reg0.CLK
+sys_clk => dig_duan[5]~reg0.CLK
+sys_clk => dig_duan[6]~reg0.CLK
+sys_clk => dig_duan[7]~reg0.CLK
+sys_clk => speed~1.DATAIN
+sys_rst_n => dig_wei[0]~reg0.ACLR
+sys_rst_n => dig_wei[1]~reg0.PRESET
+sys_rst_n => dig_wei[2]~reg0.PRESET
+sys_rst_n => dig_wei[3]~reg0.PRESET
+sys_rst_n => dig_wei[4]~reg0.PRESET
+sys_rst_n => dig_wei[5]~reg0.PRESET
+sys_rst_n => dig_duan[0]~reg0.ACLR
+sys_rst_n => dig_duan[1]~reg0.ACLR
+sys_rst_n => dig_duan[2]~reg0.ACLR
+sys_rst_n => dig_duan[3]~reg0.ACLR
+sys_rst_n => dig_duan[4]~reg0.ACLR
+sys_rst_n => dig_duan[5]~reg0.ACLR
+sys_rst_n => dig_duan[6]~reg0.ACLR
+sys_rst_n => dig_duan[7]~reg0.ACLR
+sys_rst_n => speed~3.DATAIN
+dig_duan[0] <= dig_duan[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_duan[1] <= dig_duan[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_duan[2] <= dig_duan[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_duan[3] <= dig_duan[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_duan[4] <= dig_duan[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_duan[5] <= dig_duan[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_duan[6] <= dig_duan[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_duan[7] <= dig_duan[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_wei[0] <= dig_wei[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_wei[1] <= dig_wei[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_wei[2] <= dig_wei[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_wei[3] <= dig_wei[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_wei[4] <= dig_wei[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig_wei[5] <= dig_wei[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

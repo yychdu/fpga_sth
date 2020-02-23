@@ -1,0 +1,13 @@
+
+State Machine - |shumaguan|speed
+Name speed.1001 speed.1000 speed.0111 speed.0110 speed.0101 speed.0100 speed.0011 speed.0010 speed.0001 speed.0000 
+speed.0000 0 0 0 0 0 0 0 0 0 0 
+speed.0001 0 0 0 0 0 0 0 0 1 1 
+speed.0010 0 0 0 0 0 0 0 1 0 1 
+speed.0011 0 0 0 0 0 0 1 0 0 1 
+speed.0100 0 0 0 0 0 1 0 0 0 1 
+speed.0101 0 0 0 0 1 0 0 0 0 1 
+speed.0110 0 0 0 1 0 0 0 0 0 1 
+speed.0111 0 0 1 0 0 0 0 0 0 1 
+speed.1000 0 1 0 0 0 0 0 0 0 1 
+speed.1001 1 0 0 0 0 0 0 0 0 1 
